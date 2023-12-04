@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+    height: 600px;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    
+    justify-content: center;
+
+    gap: 30px;
+    
+    
+
+    
+}
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+
+}
+@media (max-width: 1000px) {
+    .container{
+        border: 1px solid black;
+        height: 100vh;
+        overflow-x: hidden;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+
+        
+
+        justify-content: center;
+    
+        gap: 30px;
+        
+        
+    
+        
+    }
+  }
+  

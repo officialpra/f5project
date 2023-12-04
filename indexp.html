@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .wrapper{
+            overflow-x: hidden;
+            overflow-y: auto;
+            height: 100vh;
+        }
+        .container{
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            gap: 40px;
+
+            
+        }
+        .box{
+            /* border: 2px solid green; */
+            height: 80%;
+           
+            
+        }
+        #left{
+            width: 65%;
+
+        }
+        #right{
+          
+            width: 25%;
+
+        }
+        #new{
+         margin-left: 30px;
+         margin-top: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+   <div class="wrapper">
+    <div class="container">
+        <div id="left" class="box">
+           
+            <h1>this is blog page</h1>
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi quaerat ipsa molestiae aperiam unde, officia, id commodi tempore expedita impedit iusto non, error cupiditate! Deleniti nostrum iste laudantium aliquid natus eius recusandae nihil repudiandae maiores officiis hic, quis vero.</p>
+            <br>
+            <br>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nihil adipisci earum unde similique ipsam incidunt error, minima, id, corrupti voluptatibus optio quibusdam cumque reprehenderit voluptate blanditiis libero tempora omnis.</h4>
+            <br>
+            <br>
+            <textarea   style="margin-left: 50px; margin-top: 70px;" name="" id="" cols="30" rows="10"> write  your review here</textarea>
+
+        </div>
+        
+        <div id="right" class="box">
+            <h2>sidebar</h2>
+            <div id="new">
+                <a href="https://www.google.com">Read More</a>
+                <br>
+                <a href="https://www.google.com">Read More</a>
+                <br>
+                <a href="https://www.google.com">Read More</a>
+                <br>
+                <a href="https://www.google.com">Read More</a>
+                <br>
+                <a href="https://www.google.com">Read More</a>
+                <br>
+            </div>
+            
+        </div>
+    </div>
+   </div>
+</body>
+</html>
